@@ -8,6 +8,7 @@ class OverLappedImageList extends StatelessWidget {
   final List<String> imageList;
   final double borderWidth;
   final double imageRadious;
+  final double widthFactor;
   final Color borderColor;
 
   const OverLappedImageList(
@@ -15,7 +16,7 @@ class OverLappedImageList extends StatelessWidget {
       required this.imageList,
       this.borderWidth = 0,
       this.imageRadious = 20,
-      this.borderColor = Colors.white});
+      this.borderColor = Colors.white, this.widthFactor=0.6});
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +30,7 @@ class OverLappedImageList extends StatelessWidget {
             children: [
               for (int i = 0; i < imageList.length; i++)
                 Align(
-                  widthFactor: 0.5,
+                  widthFactor: widthFactor,
                   // parent circle avatar.
                   // We defined this for better UI
                   child: CircleAvatar(
