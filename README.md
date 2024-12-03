@@ -1,6 +1,6 @@
 
 
-# Overlapped Visitors List
+# Overlapped Image List
 
 A Flutter package to display overlapped images for social media comment visitors' lists. This package helps developers showcase visitor lists in an attractive, customizable format.
 
