@@ -25,7 +25,7 @@ To use `overlapped_image_list`, add the following line to your `pubspec.yaml` fi
 
 ```yaml
 dependencies:
-  overlapped_image_list: ^0.0.1
+  overlapped_image_list: ^0.0.2
   ```
 
 
@@ -138,6 +138,6 @@ To use the `Overlapped Image List`, add the following to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  overlapped_image_list: ^0.0.1
+  overlapped_image_list: ^0.0.2
 ```
 
